@@ -17,10 +17,32 @@ export function Home() {
 				<Jumbotron />
 
 				<div className="row">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+					<Card
+						ctext="Card 1"
+						text="Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+						img="https://placehold.it/500x325"
+						btext="Find out more!"
+					/>
+					<Card
+						ctext="Card 2"
+						text="Contrary to popular belief, Lorem Ipsum is not simply random text. It has ..."
+						img="https://placehold.it/500x325"
+						btext="Find out more!"
+					/>
+
+					<Card
+						ctext="Card 3"
+						text="It is a long established fact that a reader will be distracted by the ..."
+						img="https://placehold.it/500x325"
+						btext="Find out more!"
+					/>
+
+					<Card
+						ctext="Card 4"
+						text="There are many variations of passages of Lorem Ipsum available, but ..."
+						img="https://placehold.it/500x325"
+						btext="Find out more!"
+					/>
 				</div>
 			</div>
 			<Footer />
